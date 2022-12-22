@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    background-color: #100f0f;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding-top: 1rem;
+    margin: 1px;
+    text-decoration : solid;
+    font-weight: bold;
+    text-shadow:
+      0 0 1px #fff,
+      0 0 3px rgb(171, 171, 171),
+      0 0 4px #606060,
+      0 0 0 #0fa,
+      0 0 0 #0fa,
+      0 0 0 #0fa,
+      0 0 0 #0fa,
+      0 0 0 #0fa;
+}
+
+.Signup{
+    background-color: #100f0f;
+    color: aliceblue;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.form-control{
+    background-color: #100f0f;
+    color: aliceblue;
+    border: 1px solid whitesmoke;
+    padding: 10px ;
+  }
+  
+table {
+
+    width: 100%;
+  }
+
+  th {
+    
+    background: rgb(34,36,36);
+    background: linear-gradient(169deg, rgb(148, 148, 148) 0%, rgb(173, 173, 173) 73%, rgb(164, 164, 164) 100%);
+    border: 1px solid #100f0f;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  td {
+    color: aliceblue;
+    padding: 8px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+.badge{
+    width: fit-content;
+   z-index: 100;
+    left: 0;
+    height: fit-content;
+}
+
+#demo1 {
+    position:inherit;
+    box-shadow: inset;
+    background: rgb(152,158,158);
+    background: rgb(34,36,36);
+    background: linear-gradient(169deg, rgba(34,36,36,1) 0%, rgba(70,70,70,1) 73%, rgba(77,77,77,1) 100%);
+    border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      rgb(114, 114, 114), 
+      rgba(0, 0, 0, 0)
+    ) 2;
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+
+
+.notify-badge{
+    position: absolute;
+    background: rgb(2,0,36);
+    background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(125,128,129,1) 0%, rgba(148,148,148,0.40689779329700626) 100%);
+    height:fit-content;
+    z-index: 1;
+    left:2rem;
+    width:fit-content;
+    text-align: center;
+ 
+    font-size: 1rem;
+    border-radius: 10%;
+    color:white;
+    
+    margin-bottom: 3rem;
+}
+
+input{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+#inputGroupPrepend2 {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    height:auto;
+}
+
+#user-name {
+    margin-top: 1%;
+}
+
+#address {
+    margin-top: 1.9%;
+}
+
+.invalid-feedback {
+    margin: 1px;
+    text-decoration : solid;
+    color: rgb(168, 0, 0);
+    font-weight: bold;
+  text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 3px #fff,
+    0 0 0 #0fa,
+    0 0 0 #0fa,
+    0 0 0 #0fa,
+    0 0 0 #0fa,
+    0 0 0 #0fa;
+}
+
+.valid-feedback {
+    margin: 1px;
+    text-decoration : solid;
+    font-weight: bold;
+    color: rgb(0, 89, 1);
+    text-shadow:
+      0 0 1px #fff,
+      0 0 3px #fff,
+      0 0 4px #90ffa2,
+      0 0 0 #0fa,
+      0 0 0 #0fa,
+      0 0 0 #0fa,
+      0 0 0 #0fa,
+      0 0 0 #0fa;
+  }
+
+ 
